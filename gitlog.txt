@@ -1,0 +1,12 @@
+* 06bebd8 isivertinau
+*   80bb34f Merge pull request #1 from Juozasxlr/grupes-numeris
+|\  
+| *   45ed3ca sumerginta
+| |\  
+| |/  
+|/|   
+* | 33cacb6 Update studentas.txt
+| * f8837ed pridetas grupes numeris
+|/  
+* 3bde963 Prideta pavarde
+* 0031629 Pridetas vardas

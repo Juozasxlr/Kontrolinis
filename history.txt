@@ -1,0 +1,233 @@
+    1  git --version
+    2  git config --global --list
+    3  git config --global user.email "juozapas.liubauskas@gmail.com"
+    4  git config --global user.name "Juozapas Liubauskas"
+    5  git config --global --list
+    6  git config --global core.editor "code --wait"
+    7  git config --global --list
+    8  pwd
+    9  cd Desktop/
+   10  cd git
+   11  git init
+   12  git status
+   13  history
+   14  git status
+   15  cd..
+   16  cd ..
+   17  pwd
+   18  mkdir studentai
+   19  cd studentai
+   20  git init
+   21  echo "Juozapas Liubauskas" >> studentai.dat
+   22  git add studentai.dat
+   23  git commit -m "Added my name to studentai.dat"
+   24  git log
+   25  pwd
+   26  mkdir learn_git
+   27  pwd
+   28  ls
+   29  cd learn_git
+   30  cd ..
+   31  cd ..
+   32  pwd
+   33  mkdir learn_git
+   34  cd learn_git/
+   35  cat first.txt
+   36  touch first.txt
+   37  ls
+   38  git init
+   39  add first.txt
+   40  git add first.txt
+   41  git commint -m "adding first txt"
+   42  git commit -m "adding first txt"
+   43  git log
+   44  ssh-keygen -t ed25519 -C "juozapas.liubauskas@gmail.com"
+   45  eval "$(ssh-agent -s)"
+   46  ssh-add ~/.ssh/id_ed25519
+   47  clip < ~/.ssh/id_ed25519.pub
+   48  clip < ~/.ssh/id_ed25519.pub
+   49  cd ..
+   50  pwd
+   51  git clone git@github.com:Juozasxlr/scaling-octo-spoon.git
+   52  cd scaling-octo-spoon/
+   53  git log
+   54  git status
+   55  git status
+   56  git add .
+   57  git commit -m "mano commitas i github"
+   58  git push origin main
+   59  history
+   60  history
+   61  history
+   62  git clone git@github.com:mintautej/potential-giggle.git
+   63  git status
+   64  ls
+   65  cd 
+   66  cd ..
+   67  cd Desktop
+   68  cd desktop
+   69  pwd
+   70  ls
+   71  cd juoza/Desktop/
+   72  cd potential-giggle/
+   73  git switch -c sakotis
+   74  git switch main
+   75  git switch sakotis
+   76  git add sakotis
+   77  git add sakots
+   78  git add .
+   79  git status
+   80  git commit -m "pirmas pakeitimas"
+   81  git push origin sakotis
+   82  git pull
+   83  git switch main
+   84  git pull
+   85  git switch sakotis
+   86  git switch main
+   87  git switch main
+   88  git add .
+   89  git commit -m "naujo failo pakeitimas"
+   90  push origin main
+   91  git push origin main
+   92  git switch sakotis
+   93  git add .
+   94  git commit -m "kazkas paskeista i aaa"
+   95  git push origin sakotis
+   96  git switch main
+   97  git pull
+   98  git switch sakotis
+   99  git add .
+  100  git commit -m "kazkelintas pakeitimas"
+  101  git push origin sakotis
+  102  git switch sakotis
+  103  git pull
+  104  git push origin sakotis
+  105  git push origin sakotis
+  106  git status
+  107  git log --oneline --graph
+  108  mvnw spring-boot:run
+  109  ls
+  110  ls -a
+  111  git status
+  112  git clone git@github.com:Juozasxlr/Biudzetas.git
+  113  git clone git@github.com:Juozasxlr/Biudzetas.git
+  114  cd Biudzetas/
+  115  git status
+  116  git add .
+  117  git status
+  118  git commit -m "Pirmas pridejimas index ir css"
+  119  git log
+  120  git push
+  121  git pull
+  122  git log
+  123  git status
+  124  git log
+  125  git switch -c "Jheader"
+  126  git add .
+  127  git commit -m "pakeiciau head to header"
+  128  git log
+  129  git status
+  130  git push
+  131  git push origin Jheader
+  132  git switch main
+  133  git pull
+  134  git status
+  135  git status
+  136  git status
+  137  git status
+  138  git status
+  139  git status
+  140  git status
+  141  git log --oneline
+  142  git pull
+  143  git status
+  144  git log --oneline
+  145  git log
+  146  git pull
+  147  git switch -c "kontaktai"
+  148  git add .
+  149  git commit -m "pataisiau zodi"
+  150  git push origin kontaktai
+  151  git switch main
+  152  git pull
+  153  git init
+  154  git remote add origin git@github.com:Juozasxlr/Juozapo-JP-21_2_3.git
+  155  git clone git@github.com:Juozasxlr/Juozapo-JP-21_2_3.git
+  156  git add .
+  157  git switch -c "test"
+  158  git add .
+  159  git commit -m "testuoju"
+  160  git push origin test
+  161  git switch main
+  162  git switch
+  163  git switch -c main
+  164  git switch master
+  165  git switch "master"
+  166  git switch
+  167  git switch "master"
+  168  git checkout
+  169  git checkout master
+  170  git checkout "master"
+  171  git pull
+  172  git clone git@github.com:Juozasxlr/Juozapo-JP-21_2_3.git
+  173  git clone git@github.com:Juozasxlr/Juozapo-JP-21_2_3.git
+  174  git switch -c "testas"
+  175  git init
+  176  cd Juozapo-JP-21_2_3/
+  177  git switch -c "testas"
+  178  git add .
+  179  git commit -m "testuoju"
+  180  git push origin testas
+  181  git checkout master
+  182  git switch master
+  183  git switch main
+  184  git pull
+  185  git switch -c tvarkykle
+  186  git add .
+  187  git commit -m "sukurta tvarkykle"
+  188  git push origin tvarkykle
+  189  git log
+  190  vim
+  191  git init
+  192  git commit -m "Pridetas vardas"
+  193  git add .
+  194  git commit -m "Pridetas vardas"
+  195  git add .
+  196  git commit -m "Prideta pavarde"
+  197  git log
+  198  git remote add origin https://github.com/Juozasxlr/Kontrolinis.git
+  199  git push -u origin main
+  200  git branch -M main
+  201  git push -u origin main
+  202  git switch -c grupes-numeris
+  203  git add .
+  204  git commit -m "pridetas grupes numeris"
+  205  git pull
+  206  git switch master
+  207  git checkout -b master
+  208  git pull
+  209  git switch grupes-numeris
+  210  git merge
+  211  git rebase
+  212  git branch
+  213  git switch main
+  214  git pull
+  215  git switch grupes-numeris
+  216  git merge
+  217  git rebase
+  218  git merge grupes-numeris main
+  219  git commit -m "sumerginta"
+  220  git add .
+  221  git commit -m "sumerginta"
+  222  git push origin grupes-numeris
+  223  git switch main
+  224  git pull
+  225  git branch -d grupes-numeris
+  226  git add .
+  227  git commit -m "isivertinau"
+  228  git commit -m "paskutinis commitas"
+  229  git log
+  230  git commit -m "paskutinis commitas"
+  231  git add .
+  232  git commit -m "paskutinis commitas"
+  233  history > history.txt
